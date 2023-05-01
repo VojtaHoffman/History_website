@@ -1,0 +1,133 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    display: flex;
+    border-radius: 10px;
+    background: rosybrown;
+}
+.header-menu{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-right-style: solid;
+    margin: 5px 0 5px 5px;
+    border-color: white;
+    border-width: 2px;
+}
+.menu-icon{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    transition: filter 0.25s;
+}
+.menu-icon:hover{
+    filter: invert(85%);
+    -webkit-filter: invert(85%);;
+}
+.header-rest{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.menu-toggle {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    background: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+.link{
+    display: block;
+    font-size: 0.000001px;
+    color: white;
+    transition: color 1s;
+    width: fit-content;
+}
+.link:active{
+    color: lightgray;
+}
+.greek{
+    height: 60px;
+    display: inline-block;
+}
+.additional{
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.outline{
+    height: 0;
+}
+.map{
+    display: inline-flex;
+    flex: 2;
+    height: 0;
+    border-color: White;
+    border-left-style: solid;
+    border-left-width: 0;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    flex: 1;
+    height: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+.link{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+.name-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 0;
+    margin: 5px 5px 0 5px;
+    padding: 0 0 5px 0;
+    border-color: white;
+}
+.return{
+    height: 60px;
+}
+.description{
+    height: 0;
+    width: 0;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0;
+}
+.description-header{
+    font-size: 0;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+    text-decoration: underline;
+}
+.description-content{
+    font-size: 0;
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: black;
+}
