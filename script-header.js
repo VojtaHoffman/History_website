@@ -78,7 +78,7 @@ function extendMenu2 () {
         descriptionHeader.style.transition = 'font-size 0.5s ease-in-out'
 
         descriptionContent.style.fontSize = '0'
-        descriptionContent.style.transition = 'font-size 0.5s ease-in-out'
+        descriptionContent.style.transition = 'font-size 0.5s ease-in-out, text-decoration-color 0.25s ease-in-out'
     } else {
         linkElement1.style.fontSize = '18px';
         linkElement1.style.padding = '5px';
@@ -119,7 +119,7 @@ function extendMenu2 () {
         descriptionHeader.style.transition = 'font-size 0.5s ease-in-out'
 
         descriptionContent.style.fontSize = '14px'
-        descriptionContent.style.transition = 'font-size 0.5s ease-in-out'
+        descriptionContent.style.transition = 'font-size 0.5s ease-in-out, text-decoration-color 0.25s ease-in-out'
     }
     count2 = count2 + 1;
 }

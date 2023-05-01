@@ -127,8 +127,14 @@ body{
 .description:hover{
     background-color: lightgray;
 }
+.description:hover .description-content{
+    text-decoration-color: lightgray;
+}
 .description:active{
     background-color: gray;
+}
+.description:active .description-content{
+    text-decoration-color: gray;
 }
 .description-header{
     font-size: 0;
