@@ -1,0 +1,40 @@
+.sport{
+    display: flex;
+    border-radius: 10px;
+    height: 150px;
+    background-color: rosybrown;
+    margin: 30px 0 0 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.sport-image{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+.sport-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 150px;
+    color: white;
+    justify-content: center;
+    margin: 0 0 0 5px;
+    max-width: 600px;
+}
+.sport-name{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.sport-description{
+    font-size: 14px;
+    margin: 5px 0;
+    height: fit-content;
+
+}
+.sport-descriptions{
+    margin-left: 10px;
+}
