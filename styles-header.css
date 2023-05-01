@@ -95,6 +95,13 @@ body{
     background-color: white;
     border-radius: 10px;
     color: black;
+    transition: background-color 0.25s;
+}
+.link:hover{
+    background-color: lightgray;
+}
+.link:active{
+    background-color: gray;
 }
 .name-main{
     display: flex;
@@ -116,6 +123,12 @@ body{
     background-color: white;
     border-radius: 10px;
     padding: 0;
+}
+.description:hover{
+    background-color: lightgray;
+}
+.description:active{
+    background-color: gray;
 }
 .description-header{
     font-size: 0;
