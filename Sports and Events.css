@@ -2,32 +2,55 @@
     display: flex;
     border-radius: 10px;
     height: 150px;
-    background-color: rosybrown;
-    margin: 30px 0 0 0;
+    background-color: white;
+    margin: 15px 0 0 0;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+    width: 85%;
+    box-shadow: none;
+    transition: height 0.35s, width 0.35s, box-shadow 0.35s;
+    align-self: center;
+
+}
+.sport:hover{
+    height: 175px;
+    width: 87%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 0 15px;
+}
+.sport:hover .sport-image{
+    height: 175px;
+    width: 175px;
+}
+.sport:hover .sport-info{
+    height: 175px;
+}
+.sport:hover .sport-name{
+    font-size: 24px;
 }
 .sport-image{
     border-radius: 10px;
     height: 150px;
     width: 150px;
     object-fit: cover;
+    transition: height 0.35s, width 0.35s;
 }
 .sport-info{
     display: flex;
     flex-direction: column;
     text-align: left;
-    height: 150px;
-    color: white;
+    height: 75px;
+    color: black;
     justify-content: center;
     margin: 0 0 0 5px;
     max-width: 600px;
+    transition: height 0.35s, font-size 0.35s;
 }
 .sport-name{
     font-size: 18px;
     font-weight: bold;
     margin: 0 0 10px 0;
+    transition: font-size 0.35s;
 }
 .sport-description{
     font-size: 14px;
@@ -37,4 +60,80 @@
 }
 .sport-descriptions{
     margin-left: 10px;
+}
+.sports{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    padding: 5px 20px 25px 20px;
+    background-color: rosybrown;
+    border-radius: 10px;
+}
+.sports-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.sports-info-head{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0 15px 0;
+    padding: 0 0 5px 0;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: white;
+    width: 100%;
+}
+.sports-info-content{
+    color: white;
+    font-size: 18px;
+    max-width: 700px;
+}
+.preparation{
+    margin: 20px 0 0 0;
+    padding: 5px 20px 25px 20px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    align-items: center;
+}
+.preparation-name{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0 15px 0;
+    padding: 0 0 5px 0;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+.preparation-content-text{
+    color: white;
+    font-size: 18px;
+    max-width: 500px;
+    text-align: center;
+    word-break: break-word;
+}
+.preparation-content-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.preparation-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.current-section{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    font-size: 12px;
 }
