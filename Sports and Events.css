@@ -16,7 +16,7 @@
 .sport:hover{
     height: 175px;
     width: 87%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0 0 15px;
+    box-shadow: rgba(0, 0, 0, 0.50) 0 0 10px;
 }
 .sport:hover .sport-image{
     height: 175px;
@@ -70,6 +70,7 @@
     padding: 5px 20px 25px 20px;
     background-color: rosybrown;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.50) 0 0 10px;
 }
 .sports-info{
     width: 100%;
@@ -101,6 +102,7 @@
     background-color: rosybrown;
     border-radius: 10px;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.50) 0 0 10px;
 }
 .preparation-name{
     color: white;
@@ -136,4 +138,5 @@
     border-width: 2px;
     text-align: center;
     font-size: 12px;
+    box-shadow: rgba(0, 0, 0, 0.50) 0 0 10px;
 }

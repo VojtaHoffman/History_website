@@ -7,6 +7,7 @@
     padding: 5px;
     justify-content: space-evenly;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.50) 0 0 10px;
 }
 .intro-text{
     text-align: center;

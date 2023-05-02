@@ -1,10 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
 }
 .header{
     display: flex;
     border-radius: 10px;
     background: rosybrown;
+    box-shadow: rgba(0, 0, 0, 0.50) 0 0 10px;
 }
 .header-menu{
     display: inline-block;
