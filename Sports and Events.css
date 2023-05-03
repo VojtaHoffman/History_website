@@ -9,6 +9,7 @@
     padding: 5px;
     width: 85%;
     box-shadow: none;
+    max-width: 1000px;
     transition: height 0.35s, width 0.35s, box-shadow 0.35s;
     align-self: center;
 
