@@ -163,4 +163,7 @@
     box-shadow: rgba(0, 0, 0, 0.50) 0 0 10px;
     max-width: 360px;
 }
+.styled-form-background{
+    border-radius: 10px;
+}
 
