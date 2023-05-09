@@ -6,9 +6,11 @@
     <title>Roman Empire</title>
     <link rel="stylesheet" href="../Header/styles-header.css">
     <link rel="icon" type="image/x-icon" href="../icons/main-web-icon.png">
+    <link rel="stylesheet" href="Legacy%20and%20Influence.css">
 </head>
 <body>
 <script src="../Header/script-header.js"></script>
+<script src="Legacy%20and%20Influence.js"></script>
 <div class="header" >
     <div class="header-menu" id="header-menu">
         <button class="menu-toggle" onclick="extendMenu(); extendMenu2()">
@@ -25,7 +27,6 @@
                 <a href="../History%20and%20Origins/History%20and%20Origins.html" class="link" id="link1">History and Origins</a>
                 <a href="../Sports%20and%20Events/Sports%20and%20Events.html" class="link" id="link2">Sports and Events</a>
                 <a href="../Legacy%20and%20Influence/Legacy%20and%20Influence.html" class="link" id="link3">Legacy and Influence</a>
-                <a href="../Sources/Sources.html" class="link" id="link4">Sources</a>
             </div>
             <div class="map" id="map">
                 <img src="../icons/Greece%20outline%20full%20white%20with%20Olympia.png" alt="outline of Roman Empire" class="outline" id="image">
@@ -40,6 +41,138 @@
         </div>
     </div>
 </div>
-<p>Legacy and Influence</p>
+<div class="current-section">
+    <h1>Legacy and Influence</h1>
+</div>
+<div class="religion">
+    <h2 class="religion-name">Overall Influence</h2>
+    <div class="religion-content">
+        <img class="religion-image" src="../icons/Legacy%20Intro.jpeg" alt="Legacy Introduction">
+        <p class="religion-text">The ancient Olympic Games have left an indelible mark on the history of sports and international competition. This illustrious event not only fostered a sense of unity among the warring city-states of ancient Greece but also provided a foundation for the modern Olympic Games we celebrate today. The legacy of the ancient Olympics has transcended time, shaping the world's perception of athletic excellence and creating a platform for cultural exchange, diplomacy, and the celebration of human achievement.</p>
+    </div>
+</div>
+<div class="full-container-center">
+    <div class="full-container">
+        <script src="Legacy%20and%20Influence.js"></script>
+        <div class="overall">
+            <h2 class="overall-name">Most Influential Aspects</h2>
+            <p class="overall-description">As said above, the Ancient Olympic Games have been and still are affecting everyday events, traditions and overall culture. And so, in the following space you can find the areas where the importance of the Ancient Olympic Games is/was the biggest.</p>
+        </div>
+        <div class="container">
+            <button onclick="showModal1()" class="show-button">
+                <div class="front-content">
+                    <p class="front-name">Promotion of Peace and Unity</p>
+                    <img src="../icons/Peace%20Promotion.jpeg" class="front-image">
+                </div>
+            </button>
+            <dialog id="dialog1"      onclick="performClose1()" class="dialog">
+                <div class="dialog-content">
+                    <img src="../icons/Peace%20Promotion.jpeg" class="image-section">
+                    <div class="content-section">
+                        <p class="name-section">Promotion of Peace and Unity</p>
+                        <p class="description-section">The Olympic Games were a time of temporary truce, known as the Olympic Truce (Ekecheiria), which allowed athletes and spectators from warring city-states to attend the Games without fear of conflict. This tradition fostered a sense of unity and peace among the different Greek city-states, encouraging them to put aside their differences and come together in the spirit of sportsmanship.</p>
+                    </div>
+                </div>
+            </dialog>
+            <button onclick="showModal2()" class="show-button">
+                <div class="front-content">
+                    <p class="front-name">Development of Athletic Competition</p>
+                    <img src="../icons/Development%20of%20Athletic%20Competition.jpeg" class="front-image">
+                </div>
+            </button>
+            <dialog id="dialog2"      onclick="performClose2()" class="dialog">
+                <div class="dialog-content">
+                    <img src="../icons/Development%20of%20Athletic%20Competition.jpeg" class="image-section">
+                    <div class="content-section">
+                        <p class="name-section">Development of Athletic Competition</p>
+                        <p class="description-section">The Olympic Games helped establish the foundations of organized sports by creating a regular event where athletes could compete in various disciplines. The Games included events such as foot races, long jump, discus, and wrestling. These competitions inspired new training techniques, equipment, and facilities, many of which continue to be used in modern sporting events.</p>
+                    </div>
+                </div>
+            </dialog>
+        </div>
+        <div class="container">
+            <button onclick="showModal3()" class="show-button">
+                <div class="front-content">
+                    <p class="front-name">Cultural Exchange and Advancements</p>
+                    <img src="../icons/Cultural%20Exchange.jpeg" class="front-image">
+                </div>
+            </button>
+            <dialog id="dialog3"      onclick="performClose3()" class="dialog">
+                <div class="dialog-content">
+                    <img src="../icons/Cultural%20Exchange.jpeg" class="image-section">
+                    <div class="content-section">
+                        <p class="name-section">Cultural Exchange and Advancements</p>
+                        <p class="description-section">The Olympic Games were a major cultural event in the ancient world, attracting people from all over Greece and beyond. The gatherings provided opportunities for cultural exchange, including the sharing of ideas, art, and literature. Many artists, poets, and philosophers attended the Games, showcasing their work and contributing to the cultural enrichment of the period.</p>
+                    </div>
+                </div>
+            </dialog>
+            <button onclick="showModal4()" class="show-button">
+                <div class="front-content">
+                    <p class="front-name">Intercity-state Political Influence</p>
+                    <img src="../icons/Political%20Influence.jpeg" class="front-image">
+                </div>
+            </button>
+            <dialog id="dialog4"      onclick="performClose4()" class="dialog">
+                <div class="dialog-content">
+                    <img src="../icons/Political%20Influence.jpeg" class="image-section">
+                    <div class="content-section">
+                        <p class="name-section">Intercity-state Political Influence</p>
+                        <p class="description-section">The Olympic Games were not only a stage for athletic competition but also a platform for political influence. Victorious athletes often gained significant prestige and social status, which could be leveraged for political purposes. City-states would use their champions' success to enhance their reputation and demonstrate their power to rival states.</p>
+                    </div>
+                </div>
+            </dialog>
+        </div>
+        <div class="container">
+            <button onclick="showModal5()" class="show-button">
+                <div class="front-content">
+                    <p class="front-name">Inspiration for Modern Olympic Games</p>
+                    <img src="../icons/Inspiration%20for%20modern%20olympic%20games.jpeg" class="front-image">
+                </div>
+            </button>
+            <dialog id="dialog5"      onclick="performClose5()" class="dialog">
+                <div class="dialog-content">
+                    <img src="../icons/Inspiration%20for%20modern%20olympic%20games.jpeg" class="image-section">
+                    <div class="content-section">
+                        <p class="name-section">Inspiration for Modern Olympic Games</p>
+                        <p class="description-section">The Ancient Greek Olympic Games served as the inspiration for the modern Olympic Games, which began in 1896. The International Olympic Committee (IOC) was established to organize and oversee the modern Games, drawing upon the ancient traditions and ideals to create a global celebration of sportsmanship, unity, and friendly competition.</p>
+                    </div>
+                </div>
+            </dialog>
+            <button onclick="showModal6()" class="show-button">
+                <div class="front-content">
+                    <p class="front-name">Legacy in Art, Literature, and Philosophy</p>
+                    <img src="../icons/Art%20Inspiration.jpeg" class="front-image">
+                </div>
+            </button>
+            <dialog id="dialog6"      onclick="performClose6()" class="dialog">
+                <div class="dialog-content">
+                    <img src="../icons/Art%20Inspiration.jpeg" class="image-section">
+                    <div class="content-section">
+                        <p class="name-section">Legacy in Art, Literature, and Philosophy</p>
+                        <p class="description-section">The Olympic Games have left a lasting legacy in the fields of art, literature, and philosophy. Ancient Greek works inspired by the Games, such as statues, pottery, and poetry, can be found in museums around the world. Additionally, the Olympic Games played a role in the development of ancient Greek philosophical thought, with philosophers like Socrates, Plato, and Aristotle often discussing the importance of physical fitness and intellectual development.</p>
+                    </div>
+                </div>
+            </dialog>
+        </div>
+    </div>
+</div>
+<div class="sources">
+    <h2 class="sources-name">Sources</h2>
+    <p class="sources-content"> · Cartwright, Mark. “Ancient Olympic Games.” World History Encyclopedia, May 2023, www.worldhistory.org/Olympic_Games.</p>
+    <p class="sources-content"> · “Legacy of Ancient Greece: Art, Government, Science and Sports.” study.com, study.com/academy/lesson/legacy-of-ancient-greece-art-government-science-sports.html.</p>
+    <p class="sources-content"> · “Tell me about the Legacy and Influence of the Ancient Olympic Games” prompt. ChatGPT, 13 Feb. version, OpenAI, 28 May. 2023, chat.openai.com/chat.</p>
+    <p class="sources-content"> · “---.” International Olympic Committee, 20 Mar. 2023, olympics.com/ioc/ancient-olympic-games.</p>
+    <p class="sources-content"> · Braniște, Gheorghe. Prospective Views on the Legacy of the Ancient Greek Culture With Implications in the  Evolution of the Olympic Games. 6 Oct. 2022, www.across-journal.com/index.php/across/article/view/137.</p>
+</div>
+<div class="navigate">
+    <a class="navigate-last" href="../Sports%20and%20Events/Sports%20and%20Events.html">
+        <img src="../icons/Arrow%20done.png" alt="Arrow-last" class="navigate-last-arrow">
+        <p class="navigate-where">Sports and Events</p>
+    </a>
+    <a class="navigate-next" href="../Location/Location.html">
+        <p class="navigate-where">Location</p>
+        <img src="../icons/Arrow%20done.png" alt="Arrow-nex" class="navigate-next-arrow">
+    </a>
+</div>
 </body>
 </html>

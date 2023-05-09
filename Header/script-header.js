@@ -51,10 +51,6 @@ function extendMenu2 () {
         linkElement3.style.padding = '0';
         linkElement3.style.transition = 'font-size 0.5s ease-in-out, padding 0.5s ease-in-out, background-color 0.25s ease-in-out';
 
-        linkElement4.style.fontSize = '0';
-        linkElement4.style.padding = '0';
-        linkElement4.style.transition = 'font-size 0.5s ease-in-out, padding 0.5s ease-in-out, background-color 0.25s ease-in-out';
-
         image.style.height= '0'
         image.style.transition = 'height 0.5s ease-in-out'
 
@@ -92,9 +88,6 @@ function extendMenu2 () {
         linkElement3.style.padding = '5px';
         linkElement3.style.transition = 'font-size 0.5s ease-in-out, padding 0.5s ease-in-out, background-color 0.25s ease-in-out';
 
-        linkElement4.style.fontSize = '18px';
-        linkElement4.style.padding = '5px';
-        linkElement4.style.transition = 'font-size 0.5s ease-in-out, padding 0.5s ease-in-out, background-color 0.25s ease-in-out';
 
         image.style.height= '250px'
         image.style.transition = 'height 0.5s ease-in-out'
